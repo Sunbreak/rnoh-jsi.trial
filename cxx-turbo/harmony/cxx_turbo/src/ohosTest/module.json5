@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "my_mod_test",
+    "name": "cxx_turbo_test",
     "type": "feature",
     "deviceTypes": [
       "default",

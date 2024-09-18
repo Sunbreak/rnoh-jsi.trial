@@ -37,8 +37,8 @@
       ]
     },
     {
-      "name": "my_mod",
-      "srcPath": "./my_mod",
+      "name": "cxx_turbo",
+      "srcPath": "./cxx_turbo",
     }
   ]
 }

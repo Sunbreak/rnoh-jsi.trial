@@ -7,12 +7,12 @@
  *
  * @generatorVersion: 2
  */
-#include "MyMod.h"
+#include "CxxTurbo.h"
 
 namespace rnoh {
 using namespace facebook;
 
-MyMod::MyMod(const ArkTSTurboModule::Context ctx, const std::string name) : ArkTSTurboModule(ctx, name) {
+CxxTurbo::CxxTurbo(const ArkTSTurboModule::Context ctx, const std::string name) : ArkTSTurboModule(ctx, name) {
     methodMap_ = {
         ARK_METHOD_METADATA(multiply, 2),
     };

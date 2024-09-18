@@ -10,9 +10,9 @@
 
 #pragma once
 
-#include <react/renderer/components/react_native_my_mod/EventEmitters.h>
-#include <react/renderer/components/react_native_my_mod/Props.h>
-#include <react/renderer/components/react_native_my_mod/States.h>
+#include <react/renderer/components/react_native_cxx_turbo/EventEmitters.h>
+#include <react/renderer/components/react_native_cxx_turbo/Props.h>
+#include <react/renderer/components/react_native_cxx_turbo/States.h>
 #include <react/renderer/components/view/ConcreteViewShadowNode.h>
 #include <jsi/jsi.h>
 

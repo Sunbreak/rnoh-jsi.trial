@@ -13,9 +13,9 @@
 
 namespace rnoh {
 
-class JSI_EXPORT MyMod : public ArkTSTurboModule {
+class JSI_EXPORT CxxTurbo : public ArkTSTurboModule {
   public:
-    MyMod(const ArkTSTurboModule::Context ctx, const std::string name);
+    CxxTurbo(const ArkTSTurboModule::Context ctx, const std::string name);
 };
 
 } // namespace rnoh

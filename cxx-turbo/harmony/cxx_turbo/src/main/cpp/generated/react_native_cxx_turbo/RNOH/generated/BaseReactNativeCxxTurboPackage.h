@@ -10,26 +10,26 @@
 
 #include "RNOH/Package.h"
 #include "RNOH/ArkTSTurboModule.h"
-#include "RNOH/generated/turbo_modules/MyMod.h"
+#include "RNOH/generated/turbo_modules/CxxTurbo.h"
 
 namespace rnoh {
 
-class BaseReactNativeMyModPackageTurboModuleFactoryDelegate : public TurboModuleFactoryDelegate {
+class BaseReactNativeCxxTurboPackageTurboModuleFactoryDelegate : public TurboModuleFactoryDelegate {
   public:
     SharedTurboModule createTurboModule(Context ctx, const std::string &name) const override {
-        if (name == "MyMod") {
-            return std::make_shared<MyMod>(ctx, name);
+        if (name == "CxxTurbo") {
+            return std::make_shared<CxxTurbo>(ctx, name);
         }
         return nullptr;
     };
 };
 
-class BaseReactNativeMyModPackage : public Package {
+class BaseReactNativeCxxTurboPackage : public Package {
   public:
-    BaseReactNativeMyModPackage(Package::Context ctx) : Package(ctx){};
+    BaseReactNativeCxxTurboPackage(Package::Context ctx) : Package(ctx){};
 
     std::unique_ptr<TurboModuleFactoryDelegate> createTurboModuleFactoryDelegate() override {
-        return std::make_unique<BaseReactNativeMyModPackageTurboModuleFactoryDelegate>();
+        return std::make_unique<BaseReactNativeCxxTurboPackageTurboModuleFactoryDelegate>();
     }
 
     std::vector<facebook::react::ComponentDescriptorProvider> createComponentDescriptorProviders() override {

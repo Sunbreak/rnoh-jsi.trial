@@ -1,8 +1,8 @@
 import { RNPackageContext, RNPackage } from '@rnoh/react-native-openharmony/ts';
-import { MyModPackage } from 'rnoh-my-mod/ts';
+import { CxxTurboPackage } from 'rnoh-cxx-turbo/ts';
 
 export function createRNPackages(ctx: RNPackageContext): RNPackage[] {
   return [
-    new MyModPackage(ctx),
+    new CxxTurboPackage(ctx),
   ];
 }

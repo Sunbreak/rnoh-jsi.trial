@@ -1,2 +1,2 @@
-export * from "./src/main/ets/MyModModule"
-export * from "./src/main/ets/MyModPackage"
+export * from "./src/main/ets/CxxTurboModule"
+export * from "./src/main/ets/CxxTurboPackage"

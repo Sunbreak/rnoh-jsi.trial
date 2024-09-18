@@ -1,10 +1,10 @@
 #include "RNOH/PackageProvider.h"
-#include "MyModPackage.h"
+#include "CxxTurboPackage.h"
 
 using namespace rnoh;
 
 std::vector<std::shared_ptr<Package>> PackageProvider::getPackages(Package::Context ctx) {
     return {
-        std::make_shared<MyModPackage>(ctx),
+        std::make_shared<CxxTurboPackage>(ctx),
     };
 }
