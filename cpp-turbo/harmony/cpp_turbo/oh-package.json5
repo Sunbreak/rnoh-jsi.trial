@@ -1,0 +1,12 @@
+{
+  "name": "cpp_turbo",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "libcpp_turbo.so": "file:./src/main/cpp/types/libcpp_turbo",
+    "@rnoh/react-native-openharmony": "file:../../../rnoh_harmony_har/react_native_openharmony-5.0.0.500.har"
+  }
+}

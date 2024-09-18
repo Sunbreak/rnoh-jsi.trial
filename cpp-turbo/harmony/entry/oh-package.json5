@@ -1,0 +1,13 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "file:../../../rnoh_harmony_har/react_native_openharmony-5.0.0.500.har",
+    "rnoh-cpp-turbo": "../cpp_turbo"
+  }
+}
