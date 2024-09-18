@@ -37,8 +37,8 @@
       ]
     },
     {
-      "name": "my_mod",
-      "srcPath": "./my_mod",
+      "name": "cpp_turbo",
+      "srcPath": "./cpp_turbo",
     }
   ]
 }

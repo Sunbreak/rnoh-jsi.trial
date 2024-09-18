@@ -1,22 +1,22 @@
 import { RNPackage, TurboModulesFactory } from '@rnoh/react-native-openharmony/ts';
 import type { TurboModule, TurboModuleContext } from '@rnoh/react-native-openharmony/ts';
-import { MyModModule } from './MyModModule';
+import { CppTurboModule } from './CppTurboModule';
 
-class MyModTurboModulesFactory extends TurboModulesFactory {
+class CppTurboTurboModulesFactory extends TurboModulesFactory {
   createTurboModule(name: string): TurboModule | null {
-    if (name === 'MyMod') {
-      return new MyModModule(this.ctx);
+    if (name === 'CppTurbo') {
+      return new CppTurboModule(this.ctx);
     }
     return null;
   }
 
   hasTurboModule(name: string): boolean {
-    return name === 'MyMod';
+    return name === 'CppTurbo';
   }
 }
 
-export class MyModPackage extends RNPackage {
+export class CppTurboPackage extends RNPackage {
   createTurboModulesFactory(ctx: TurboModuleContext): TurboModulesFactory {
-    return new MyModTurboModulesFactory(ctx);
+    return new CppTurboTurboModulesFactory(ctx);
   }
 }

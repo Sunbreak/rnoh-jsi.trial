@@ -15,7 +15,7 @@ set(WITH_HITRACE_SYSTRACE 1) # for other CMakeLists.txt files to use
 add_subdirectory("${RNOH_CPP_DIR}" ./rn)
 
 # RNOH_BEGIN: add_package_subdirectories
-add_subdirectory("${OH_MODULE_DIR}/rnoh-my-mod/src/main/cpp" ./my-mod)
+add_subdirectory("${OH_MODULE_DIR}/rnoh-cpp-turbo/src/main/cpp" ./cpp-turbo)
 # RNOH_END: add_package_subdirectories
 
 add_library(rnoh_app SHARED
@@ -26,5 +26,5 @@ add_library(rnoh_app SHARED
 target_link_libraries(rnoh_app PUBLIC rnoh)
 
 # RNOH_BEGIN: link_packages
-target_link_libraries(rnoh_app PUBLIC rnoh_my_mod)
+target_link_libraries(rnoh_app PUBLIC rnoh_cpp_turbo)
 # RNOH_END: link_packages

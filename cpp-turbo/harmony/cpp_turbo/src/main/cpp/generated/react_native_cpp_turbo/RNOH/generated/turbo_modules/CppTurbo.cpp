@@ -7,15 +7,15 @@
  *
  * @generatorVersion: 2
  */
-#pragma once
-
-#include "RNOH/ArkTSTurboModule.h"
+#include "CppTurbo.h"
 
 namespace rnoh {
+using namespace facebook;
 
-class JSI_EXPORT MyMod : public ArkTSTurboModule {
-  public:
-    MyMod(const ArkTSTurboModule::Context ctx, const std::string name);
-};
+CppTurbo::CppTurbo(const ArkTSTurboModule::Context ctx, const std::string name) : ArkTSTurboModule(ctx, name) {
+    methodMap_ = {
+        ARK_METHOD_METADATA(multiply, 2),
+    };
+}
 
 } // namespace rnoh

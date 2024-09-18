@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.my_mod",
+    "bundleName": "com.example.cpp_turbo",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "my_mod",
+    "name": "cpp_turbo",
     "type": "har",
     "deviceTypes": [
       "default",
