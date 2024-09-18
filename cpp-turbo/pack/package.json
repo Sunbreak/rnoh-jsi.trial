@@ -1,0 +1,17 @@
+{
+    "name": "react-native-my-mod",
+    "version": "0.1.0",
+    "harmony": {
+      "codegenConfig": [
+        {
+          "version": 2,
+          "specPaths": [
+            "./src"
+          ]
+        }
+      ]
+    },
+    "files": [
+      "src/*"
+    ]
+  }
