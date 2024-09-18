@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import MyMod from 'react-native-my-mod/src/NativeMyMod';
+import CppTurbo from 'react-native-cpp-turbo/src/NativeCppTurbo';
 
-const result = MyMod.multiply(3, 7);
+const result = CppTurbo.multiply(3, 7);
 
 export default function App() {
   return (

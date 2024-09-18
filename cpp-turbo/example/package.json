@@ -9,13 +9,13 @@
     "start": "react-native start",
     "test": "jest",
     "dev": "react-native bundle-harmony --dev",
-    "codegen": "react-native codegen-harmony --no-safety-check --cpp-output-path ../harmony/my_mod/src/main/cpp/generated --rnoh-module-path ../harmony/entry/oh_modules/@rnoh/react-native-openharmony"
+    "codegen": "react-native codegen-harmony --no-safety-check --cpp-output-path ../harmony/cpp_turbo/src/main/cpp/generated --rnoh-module-path ../harmony/entry/oh_modules/@rnoh/react-native-openharmony"
   },
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.5",
-    "react-native-harmony": "file:../react-native-harmony/rnoh-react-native-harmony-0.72.29.tgz",
-    "react-native-my-mod": "file:../react-native-my-mod-0.1.0.tgz"
+    "react-native-harmony": "file:../../react-native-harmony/rnoh-react-native-harmony-0.72.29.tgz",
+    "react-native-cpp-turbo": "file:../react-native-cpp-turbo-0.1.0.tgz"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
