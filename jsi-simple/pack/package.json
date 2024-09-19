@@ -1,0 +1,7 @@
+{
+    "name": "react-native-jsi-simple",
+    "version": "0.1.0",
+    "files": [
+      "src/*"
+    ]
+  }
