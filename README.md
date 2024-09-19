@@ -2,10 +2,11 @@
 
 # 项目列表
 
-|           | type         | languages               |
-|-----------|--------------|-------------------------|
-| cpp-turbo | Turbo module | ArkTS & C++ for Harmony |
-| cxx-turbo | Turbo module | C++ for Harmony         |
+|            | type         | languages               |
+|------------|--------------|-------------------------|
+| cpp-turbo  | Turbo module | ArkTS & C++ for Harmony |
+| cxx-turbo  | Turbo module | C++ for Harmony         |
+| jsi-simple | JSI module   | JSI for Harmony         |
 
 # 如何运行
 
