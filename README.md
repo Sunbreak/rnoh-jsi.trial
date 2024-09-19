@@ -1,10 +1,30 @@
+> 因为`react_native_openharmony-xxx.har`源码包体积140MB，需要使用Git LFS插件，参考[Installing Git Large File Storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)
+
 # 项目列表
 
-|           | type         | languages       |
-|-----------|--------------|-----------------|
-| cpp-turbo | Turbo module | C++ for Harmony |
+|           | type         | languages               |
+|-----------|--------------|-------------------------|
+| cpp-turbo | Turbo module | ArkTS & C++ for Harmony |
+| cxx-turbo | Turbo module | C++ for Harmony         |
 
 # 如何运行
+
+e.g. `cpp-turbo`
+
+0. 设置端口转发
+
+```sh
+$ hdc rport tcp:8081 tcp:8081
+```
+
+1. 运行前端debug server
+
+```sh
+$ cd example && npm i
+$ npm start
+```
+
+2. DevStudio运行客户端工程
 
 # 如何新建
 
