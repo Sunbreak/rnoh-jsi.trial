@@ -1,0 +1,17 @@
+{
+    "name": "react-native-cxx-turbo",
+    "version": "0.1.0",
+    "harmony": {
+      "codegenConfig": [
+        {
+          "version": 2,
+          "specPaths": [
+            "./src"
+          ]
+        }
+      ]
+    },
+    "files": [
+      "src/*"
+    ]
+  }

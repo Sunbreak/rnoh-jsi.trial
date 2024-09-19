@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "cxx_turbo",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}
