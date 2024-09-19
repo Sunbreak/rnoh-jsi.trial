@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import MyMod from 'react-native-my-mod/src/NativeMyMod';
+import { multiply } from 'react-native-jsi-simple/src/NativeJsiSimple';
 
-const result = MyMod.multiply(3, 7);
+const result = multiply(3, 7);
 
 export default function App() {
   return (
