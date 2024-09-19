@@ -1,0 +1,11 @@
+{
+  "name": "my_mod",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "file:../../rnoh_harmony_har/react_native_openharmony-5.0.0.500.har"
+  }
+}
