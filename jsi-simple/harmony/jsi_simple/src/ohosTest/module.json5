@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "my_mod_test",
+    "name": "jsi_simple_test",
     "type": "feature",
     "deviceTypes": [
       "default",

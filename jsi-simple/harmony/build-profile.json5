@@ -37,8 +37,8 @@
       ]
     },
     {
-      "name": "my_mod",
-      "srcPath": "./my_mod",
+      "name": "jsi_simple",
+      "srcPath": "./jsi_simple",
     }
   ]
 }

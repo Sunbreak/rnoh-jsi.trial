@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.my_mod",
+    "bundleName": "com.example.jsi_simple",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

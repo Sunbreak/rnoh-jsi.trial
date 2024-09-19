@@ -7,7 +7,7 @@
   "main": "",
   "version": "1.0.0",
   "dependencies": {
-    "@rnoh/react-native-openharmony": "file:../../rnoh_harmony_har/react_native_openharmony-5.0.0.500.har",
-    "rnoh-my-mod": "../my_mod"
+    "@rnoh/react-native-openharmony": "file:../../../rnoh_harmony_har/react_native_openharmony-5.0.0.500.har",
+    "rnoh-jsi-simple": "../jsi_simple"
   }
 }

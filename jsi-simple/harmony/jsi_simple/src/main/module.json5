@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "my_mod",
+    "name": "jsi_simple",
     "type": "har",
     "deviceTypes": [
       "default",
